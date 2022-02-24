@@ -1,0 +1,57 @@
+body {
+  background-color: beige;
+
+}
+
+h1 {
+  font-style: italic;
+  font-family: Permanent Marker, cursive;
+  font-weight: lighter;
+  color: teal;
+  text-align: center;
+  font-size: 50px;
+
+}
+p {
+  font-family: Permanent Marker;
+  font-weight: lighter;
+  font-stretch: condensed;
+  text-align: center;
+  color: teal;
+  font-size: 30px;
+
+}
+.cabins {
+  background-color: navajowhite;
+  color: teal;
+  display: block;
+
+}
+
+.mainland {
+  background-color: lightseagreen;
+  color: navajowhite;
+
+
+}
+.suburban {
+  background-color: navajowhite;
+  color: teal;
+
+}
+img {
+  border: 2.5px solid #ddd;
+  border-radius: 2.5px;
+  border-color: inherit;
+  padding: 2px;
+  width: auto;
+  height: 400px;
+  object-fit: fill;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
